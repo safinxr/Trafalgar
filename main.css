@@ -26,10 +26,20 @@ nav{
 }
 /* <<<<<<<<<<<<<<<Nav end>>>>>>>>>>>>>>>> */
 /*<<<<<<<<<<<<<< top banner >>>>>>>>>>>>>>>*/
+.top-banner{
+    position: relative;
+}
 .top-btn{
     text-decoration: none;
     color: white;
     background-color: #458FF6;
     padding: 12px 35px;
     border-radius:22px;
+}
+.dot-img{
+    position: absolute;
+    top: 0px;
+    left: -50px;
+    width: 60px;
+    opacity: 50%;
 }
