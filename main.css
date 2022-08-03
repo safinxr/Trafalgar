@@ -43,3 +43,43 @@ nav{
     width: 60px;
     opacity: 50%;
 }
+/* <<<<<<<<<<<<<<<top banner end>>>>>>>>>>>>>>>>> */
+.black-line{
+    width: 56px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: black;
+    margin-bottom: 33px;
+}
+.service-p{
+    width: 850px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.card-div{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows:repeat(2, 354px);
+    grid-gap: 35px;
+}
+.card{
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 38px;
+    box-sizing: border-box;
+}
+.side-A{
+    position: absolute;
+    top: 200px;
+    left: -120px;
+    z-index: -1;
+}
+.side-B{
+    position: absolute;
+    top: 540px;
+    right: -100px;
+    z-index: -1;
+}
